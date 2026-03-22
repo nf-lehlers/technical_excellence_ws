@@ -35,3 +35,19 @@ pytest
 ```
 
 Erwartung: ein bestandener Test.
+
+## Tests im Watch-Modus (`ptw`)
+
+Mit **`pytest-watcher`** (CLI: **`ptw`**) werden Tests bei Änderungen an `*.py` automatisch neu ausgeführt (liegt in den Dev-Abhängigkeiten).
+
+```bash
+ptw .
+```
+
+Ersten Lauf sofort starten, danach weiter beobachten:
+
+```bash
+ptw . --now
+```
+
+Zusätzliche pytest-Optionen kannst du ans Ende setzen, z. B. `ptw . -q` (ruft `pytest` mit `-q` auf).
