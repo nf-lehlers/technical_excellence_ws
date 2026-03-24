@@ -4,7 +4,7 @@ Minimales Beispiel für testgetriebene Entwicklung: eine kleine Domäne (`Calcul
 
 ## Voraussetzungen
 
-- **JDK 25** (entspricht `maven.compiler.release` in `pom.xml`)
+- **JDK 21** (entspricht `maven.compiler.release` in `pom.xml`)
 - **Apache Maven**
 
 ## Stack
