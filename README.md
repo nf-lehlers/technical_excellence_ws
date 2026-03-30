@@ -4,7 +4,7 @@ Drei kleine Beispielprojekte für testgetriebene Entwicklung. Jedes enthält ein
 
 | Sprache | Verzeichnis | Dokumentation |
 |--------|-------------|----------------|
-| Java | [`tdd-starter-java/`](tdd-starter-java/) | [README](tdd-starter-java/README.md) |
+| Java | [`tdd-starter-java/`](java/string-calculator/) | [README](java/string-calculator/README.md) |
 | Python | [`tdd-starter-python/`](tdd-starter-python/) | [README](tdd-starter-python/README.md) |
 | TypeScript | [`tdd-starter-typescript/`](tdd-starter-typescript/) | [README](tdd-starter-typescript/README.md) |
 
