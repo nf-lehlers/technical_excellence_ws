@@ -12,17 +12,6 @@ background: /images/cc_title_2.jpg
 
 <p style="position: absolute; bottom: 60px; right: 40px; z-index: 2; color: white; text-transform: none; text-align: right">Ferdinand Ade &<br> Marco Emrich</p>
 
----
-background: /images/typing.jpg
-class: bg-slide
----
-
-## Topics
-
-1.  TDD-Basics
-2.  Assertions
-3.  Test Doubles
-4.  Fragile Tests
 
 ---
 background: /images/typing.jpg
@@ -54,12 +43,6 @@ class: bg-slide
 - <span style="color: red">**C - Hunt for bugs**</span>
 
 ---
-background: /images/bugfixing.png
-backgroundSize: contain
-class: bg-white
----
-
----
 
 ## Rule of Ten
 
@@ -75,20 +58,9 @@ class: bg-slide
 ---
 
 # Secret
-
 # of
+# Test Driven Development
 
-# TDD
-
-## Test Driven Development
-
----
-background: /images/apples.png
-class: bg-slide
----
-
-# Higher Quality
-## No loss of Productivity
 
 ---
 background: /images/watch.jpg
@@ -108,7 +80,19 @@ background: /images/bughunt.jpg
 class: bg-slide
 ---
 
+<div style="margin-top: 25vh;">
+
 # Bug Hunting
+
+</div>
+
+---
+background: /images/apples.png
+class: bg-slide
+---
+
+# Higher Quality
+## No loss of Productivity
 
 ---
 background: /images/lab.jpg
@@ -217,21 +201,7 @@ background: /images/hard1.jpg
 ---
 
 ---
-background: /images/hard2.jpg
----
-
----
-background: /images/hard4.jpg
----
-
----
 background: /images/learn_tdd.png
-backgroundSize: contain
-class: bg-white
----
-
----
-background: /images/grumpy.jpg
 backgroundSize: contain
 class: bg-white
 ---
@@ -467,18 +437,7 @@ background: /images/universe.jpg
 class: bg-slide
 ---
 
-# Explore the Spaces
-
-<!--
-Wenn ein Test fehlschlägt, möchte
--->
-
----
-background: /images/universe.jpg
-class: bg-slide
----
-
-## Explore the Spaces
+## Readable Test Names
 
 ```javascript
 AYearIsALeapYearIfItIsDivisibleBy4ButNotBy100
@@ -528,23 +487,6 @@ class: bg-slide
 # Baby Steps
 
 ---
-
-## Kent Beck's Canon TDD
-
-  1. List of the test scenarios
-  *  Turn  one item into a test
-  *  Make the test (& all previous tests) pass
-  *  Refactor to improve (optional)
-  *  Go to #2
-
----
-background: /images/canontdd.jpg
-backgroundSize: contain
----
-
-<small style="position: absolute; bottom: 20px; left: 40px"><a href="https://substack.com/@vicwu">by Vic Wu</a></small>
-
----
 background: /images/weights.jpg
 class: bg-slide
 ---
@@ -568,9 +510,3 @@ class: bg-slide
 
 # GO !
 
----
-background: /images/tobe.jpg
-class: bg-slide
----
-
-# Assertions / Expectations

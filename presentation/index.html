@@ -1,0 +1,15 @@
+<body>
+<!-- Liegt nach <script> im Slidev-Template → nach per Vite injizierten <head>-Styles.
+     Heading-Größen werden jetzt ausschließlich über style.css (#app-Selektoren) gesteuert.
+     Hier nur noch Blockquote-Override, der kein #app braucht. -->
+<style id="slidev-presentation-typography-last">
+  .slidev-layout blockquote {
+    font-size: 1.85rem !important;
+    line-height: 1.45 !important;
+  }
+  .slidev-layout blockquote p {
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+</style>
+</body>
