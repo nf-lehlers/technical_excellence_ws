@@ -4,9 +4,11 @@
   "description": "Introduction to TDD - Workshop Slides",
   "private": true,
   "scripts": {
-    "dev": "slidev",
-    "build": "slidev build",
-    "export": "slidev export"
+    "dev": "slidev slides.md",
+    "dev2": "slidev slides2.md --port 3031",
+    "build": "slidev build slides.md",
+    "build2": "slidev build slides2.md",
+    "export": "slidev export slides.md && slidev export slides2.md"
   },
   "dependencies": {
     "@slidev/cli": "^51.0.0",

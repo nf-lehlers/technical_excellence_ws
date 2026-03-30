@@ -28,3 +28,78 @@ backgroundSize: contain
 ---
 
 <small style="position: absolute; bottom: 20px; right: 40px; color: #333;"><a href="https://substack.com/@vicwu">by Vic Wu</a></small>
+
+---
+background: /images/fire.jpg
+class: bg-slide
+---
+
+# Test Doubles
+
+---
+background: /images/fire_dim.jpg
+class: bg-slide
+---
+
+## Test Doubles
+
+- Dummies
+- Fakes
+- Stubs
+- Mocks
+- Spies
+
+---
+
+## Sociable vs Solitary\*
+
+<img src="/images/isolate.png">
+
+<sub>(*) from M. Fowler/ J. Fields</sub>
+
+---
+background: /images/backdoor_g.jpg
+class: bg-slide
+---
+
+<h2 style="position: absolute; top: 300px; left: 40px;">Frontdoor<br />vs<br />Backdoor Testing</h2>
+
+---
+
+### Result verification (Frontdoor)
+
+```javascript
+expect(add(3, 4)).toEqual(7);
+```
+
+### State verification (Frontdoor)
+
+```javascript
+deck = new DeckOfCards(31);
+deck.addCardOnTop("♥9");
+expect(deck.numberOfCards).toEqual(32);
+```
+
+### Behavior verification (Backdoor)
+
+```javascript
+pushSpy = jest.spyOn(Array.prototype.push);
+deck.addCardOnTop("♥9");
+expect(pushSpy).toHaveBeenCalledWith("♥9");
+```
+
+---
+background: /images/weights.jpg
+class: bg-slide
+---
+
+# Exercise
+
+## Tire Pressure
+
+---
+background: /images/weights.jpg
+class: bg-slide
+---
+
+# GO !

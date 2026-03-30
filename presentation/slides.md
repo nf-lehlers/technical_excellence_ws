@@ -14,6 +14,121 @@ background: /images/cc_title_2.jpg
 
 
 ---
+layout: two-cols
+---
+
+<img src="/images/accelerate.jpg" class="borderless" style="max-height: 420px">
+
+::right::
+
+## Accelerate
+
+**Nicole Forsgren, Jez Humble, Gene Kim**
+*(IT Revolution Press, 2018)*
+
+- 4 years of research
+- 23,000+ survey responses
+- 2,000+ organizations worldwide
+- Winner of the Shingo Publication Award
+
+<br>
+
+> "The Science of Lean Software and DevOps"
+
+---
+
+## Can software delivery drive **business outcomes**?
+
+<v-clicks>
+
+- Forsgren et al. asked: what separates high-performing teams?
+- Key finding: **speed and stability are not a trade-off**
+- High performers are **2× more likely** to exceed profitability & market share goals
+- The 4 DORA metrics measure exactly this: **throughput** and **stability**
+
+</v-clicks>
+
+<v-click>
+
+> "High performers win on both dimensions."
+
+</v-click>
+
+---
+
+## The 4 DORA Key Metrics
+
+<v-clicks>
+
+- **Deployment Frequency** – How often do you deploy to production?
+- **Lead Time for Changes** – Time from **commit** to running in production
+- **Change Failure Rate** – % of deployments causing incidents
+- **Time to Restore Service** – How fast do you recover from failures?
+
+</v-clicks>
+
+---
+layout: two-cols
+---
+
+## Elite Performers
+
+<v-clicks>
+
+- Deploy **on demand** (multiple times/day)
+- Lead time: **< 1 hour**
+- Change failure rate: **0–15%**
+- Recovery time: **< 1 hour**
+
+</v-clicks>
+
+::right::
+
+## Low Performers
+
+<v-clicks>
+
+- Deploy **< once per 6 months**
+- Lead time: **1–6 months**
+- Change failure rate: **46–60%**
+- Recovery time: **> 6 months**
+
+</v-clicks>
+
+*(DORA State of DevOps Report 2023)*
+
+---
+background: /images/blocks.jpg
+class: bg-slide
+---
+
+## How do Elite Performers achieve **both**?
+
+<v-click>
+
+## Speed **and** Stability?
+
+</v-click>
+
+---
+
+## The Safety Net for Speed
+
+<v-clicks>
+
+- Frequent deployments require **automated confidence**
+- Manual testing does **not scale**
+- TDD is the foundation for **sustainable CI/CD**
+
+</v-clicks>
+
+<v-click>
+
+> TDD is about **designing for testability**.
+
+</v-click>
+
+---
 background: /images/typing.jpg
 class: bg-slide
 ---
