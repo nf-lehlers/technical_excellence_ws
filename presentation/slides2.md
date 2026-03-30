@@ -2,6 +2,7 @@
 title: Introduction to TDD (Part 2)
 colorSchema: light
 background: /images/cc_title_2.jpg
+transition: none
 ---
 
 <div style="position: absolute; top: 5%; left: 0; right: 0; padding: 0 2rem; text-align: center; z-index: 2; box-sizing: border-box;">
