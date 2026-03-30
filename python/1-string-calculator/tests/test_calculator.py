@@ -1,4 +1,4 @@
-from example.calculator import add
+from string_calculator.calculator import add
 
 
 def test_adds_two_numbers():
