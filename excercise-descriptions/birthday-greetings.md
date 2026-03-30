@@ -12,9 +12,9 @@ Happy birthday, dear <first_name>!
 
 ## How to approach this
 
-Use **outside-in TDD** with **test doubles**.
-
 Start with a test for the behavior you want: *"Given its John's birthday, send him a greeting email."*
+
+Use test doubles for Email and User Data. The User Data consists of a Firstname, Lastname, Birthdate and Mail address.
 
 **Important constraints:**
 - Your tests must **not** read from the filesystem or send real emails.
