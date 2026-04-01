@@ -1,6 +1,9 @@
 .vscode/
 .idea/
 .claude/
-.playwright-mcp/
+**/.playwright-mcp/
+*.pdf
 
 node_modules/
+dist/
+*.xcf
